@@ -6,5 +6,16 @@ namespace ejercicio_2
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "saludo maestro, bienvendio a su clase de programacion";
+            label1.Visible = true;
+        }
     }
 }
