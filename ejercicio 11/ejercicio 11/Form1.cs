@@ -6,5 +6,17 @@ namespace ejercicio_11
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnMostrarFecha_Click(object sender, EventArgs e)
+        {
+            lblFecha.Text = "Fecha seleccionada:" +
+                dateTimerPicker1.Value.ToShortDateString(); 
+
+        }
     }
 }
